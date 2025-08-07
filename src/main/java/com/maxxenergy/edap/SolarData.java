@@ -11,7 +11,7 @@ public class SolarData {
         this.revenue = revenue;
     }
 
-    // Getters and setters
+
     public String getPlantName() {
         return plantName;
     }
