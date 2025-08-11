@@ -1,6 +1,6 @@
 package com.maxxenergy.edap;
 
-import com.maxxenergy.edap.model.SolarData;
+import model.SolarData;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;

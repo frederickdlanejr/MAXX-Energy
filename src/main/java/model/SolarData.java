@@ -1,4 +1,4 @@
-package com.maxxenergy.edap.model;
+package model;
 
 public class SolarData {
     private String plantName;
