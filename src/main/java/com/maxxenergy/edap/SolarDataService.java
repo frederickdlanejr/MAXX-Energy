@@ -1,17 +1,18 @@
 package com.maxxenergy.edap;
 
-import model.SolarData;
+import com.maxxenergy.edap.model.SolarData;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
+import org.springframework.stereotype.Service;
 
+@Service
 public class SolarDataService {
 
     public SolarData getPublicData() {
         String uri = "mongodb://localhost:27017";
-
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             MongoDatabase database = mongoClient.getDatabase("maxxenergy");
             MongoCollection<Document> collection = database.getCollection("solar_plants");
@@ -27,6 +28,7 @@ public class SolarDataService {
             }
         } catch (Exception e) {
             System.err.println("Error fetching data from MongoDB: " + e.getMessage());
+            e.printStackTrace();
         }
 
         return new SolarData("No Data Available", 0.0, 0.0);

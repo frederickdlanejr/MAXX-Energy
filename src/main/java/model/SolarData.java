@@ -1,4 +1,4 @@
-package model;
+package com.maxxenergy.edap.model;
 
 public class SolarData {
     private String plantName;
@@ -10,7 +10,6 @@ public class SolarData {
         this.generation = generation;
         this.revenue = revenue;
     }
-
 
     public String getPlantName() {
         return plantName;
