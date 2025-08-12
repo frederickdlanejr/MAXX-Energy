@@ -101,7 +101,7 @@ public class Main {
                   <header>
                     <div class="wrap nav">
                       <div class="brand">
-                        <img src="/assets/maxx-potential.jpg" alt="MAXX Potential logo">
+                       <img src="/assets/maxx-energy-logo.png" alt="MAXX Energy logo">
                         <span class="chip">MAXX Energy · EDAP</span>
                       </div>
                       <nav class="links" aria-label="Primary">
@@ -127,7 +127,7 @@ public class Main {
                         </div>
                       </div>
                       <div class="logo-hero panel">
-                        <img src="/assets/maxx-potential.jpg" alt="MAXX Potential logo large">
+                        <img src="/assets/maxx-energy-logo.png" alt="MAXX Energy logo large">
                       </div>
                     </div>
                   </section>
