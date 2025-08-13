@@ -45,7 +45,7 @@ git fetch solardata && git subtree pull --prefix=solardata solardata main
 
 ## 🤝 Contributing
 
-1. 🌱 Create a branch: `git checkout -b feature-name`
+1. 🌱 Create a branch: `git checkout -b 'feature-name'`
 2. ✏️ Make changes, commit, push
 3. 📬 Open a PR for review
 
