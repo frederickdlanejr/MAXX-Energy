@@ -47,7 +47,7 @@ git fetch solardata && git subtree pull --prefix=solardata solardata main
 
 1. 🌱 Create a branch: `git checkout -b 'feature-name'`
 2. ✏️ Make changes, commit, push
-3. 📬 Open a PR for review
+3. 📬 📬 Open a PR (Pull Request) for review – A PR is how you propose changes to this repo. It lets others review, discuss, and approve your updates before merging them into the main branch 🚦
 
 ---
 
