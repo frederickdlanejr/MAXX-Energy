@@ -1,10 +1,13 @@
-# MAXX Energy
+# 🌞 MAXX Energy Website! 💡
 
-**MAXX-Energy** is a collaborative monorepo housing both the company’s public-facing **About Page** and the backend **SolarData** Java service, as well as more later on. This structure enables streamlined development for our website content and supporting API under one unified repository. The `about-page` folder contains the static site files, while `solardata` includes the Java-based application that powers data handling and integrations. By keeping these projects together, we simplify version control, improve team collaboration, and make it easier to maintain consistent updates across the entire MAXX-Energy platform.
+**MAXX-Energy** is a collaborative monorepo housing both the company’s public-facing **About Page** 🌐 and the backend **SolarData** ☀️ Java service. This setup makes teamwork smooth, keeps everything in one happy home for us 🏡, and ensures updates across the whole platform stay in sync and readily avaliable ✨.
+
+📂 **about-page/** – Static site files for the company “About” content
+📂 **solardata/** – Java-based application for data handling and integrations
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/frederickdlanejr/MAXX-Energy.git
@@ -18,21 +21,13 @@ cd about-page && python -m http.server 8080
 ```
 
 **solardata:**
-Maven:
+☕ Maven:
 
 ```bash
 cd solardata && mvn spring-boot:run
 ```
 
-Gradle:
-
-```bash
-cd solardata && ./gradlew bootRun
-```
-
----
-
-## Updating Subtrees
+## 🔄 Updating Subtrees
 
 **About Page:**
 
@@ -48,16 +43,18 @@ git fetch solardata && git subtree pull --prefix=solardata solardata main
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-1. Create a branch: `git checkout -b feature-name`
-2. Make changes, commit, push
-3. Open a PR for review
+1. 🌱 Create a branch: `git checkout -b feature-name`
+2. ✏️ Make changes, commit, push
+3. 📬 Open a PR for review
 
 ---
 
-## License
+## 📜 License
 
-MIT License 
+MIT License – see LICENSE file 📄
 
--
+---
+
+
