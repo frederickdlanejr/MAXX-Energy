@@ -58,8 +58,6 @@ git fetch solardata && git subtree pull --prefix=solardata solardata main
 
 ## License
 
-MIT License – see LICENSE file.
+MIT License 
 
----
-
-> Tip: Add a badges row (build status, license, last commit) to make the repo top section more professional on GitHub.
+-
