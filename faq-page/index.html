@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MAXX Energy · FAQ</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../about-page/index.html">MAXX Energy</a>
+    <nav class="nav">
+      <a href="../about-page/index.html">About</a>
+      <a href="../solardata/">Data</a>
+      <a class="active" href="./index.html">FAQ</a>
+      <a href="../contact-page/index.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Frequently Asked Questions</h1>
+      <p>Quick answers about our products, data access, and security.</p>
+      <input id="faq-search" type="search" placeholder="Search FAQs…" />
+    </section>
+
+    <section id="faq-list" class="faq-list">
+      <!-- Item -->
+      <article class="faq">
+        <button class="faq-q">What is the Enterprise Portal?</button>
+        <div class="faq-a">
+          <p>It’s a secure hub for viewing public insights and authorized private energy data.</p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <button class="faq-q">Do I need an account?</button>
+        <div class="faq-a">
+          <p>Public pages require no login. Private dashboards require an authorized MAXX Energy account.</p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <button class="faq-q">How do roles work?</button>
+        <div class="faq-a">
+          <p>Access is role-based (executive, director, manager, staff). Permissions are assigned by an admin.</p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <button class="faq-q">Is my data secure?</button>
+        <div class="faq-a">
+          <p>Yes—authentication, authorization, and encryption are enforced across private endpoints.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© MAXX Energy</small>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

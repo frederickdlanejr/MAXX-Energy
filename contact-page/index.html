@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MAXX Energy · Contact Us</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../about-page/index.html">MAXX Energy</a>
+    <nav class="nav">
+      <a href="../about-page/index.html">About</a>
+      <a href="../solardata/">Data</a>
+      <a href="../faq-page/index.html">FAQ</a>
+      <a class="active" href="./index.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Contact Us</h1>
+      <p>We usually respond within one business day.</p>
+    </section>
+
+    <section class="grid">
+      <form id="contact-form" class="card">
+        <label>
+          <span>Name</span>
+          <input id="name" required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input id="email" type="email" required />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea id="message" rows="6" required></textarea>
+        </label>
+        <button type="submit">Send message</button>
+        <p id="status" class="status" hidden></p>
+      </form>
+
+      <aside class="card info">
+        <h2>Company</h2>
+        <ul>
+          <li><strong>Email:</strong> freddyrules@maxxenergy.com</li>
+          <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+          <li><strong>Address:</strong> 123 Solar Way, New York, NY 10001</li>
+          <li><strong>Social:</strong> LinkedIn · YouTube · Twitter · Instagram</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© MAXX Energy</small>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
